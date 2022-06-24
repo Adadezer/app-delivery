@@ -1,0 +1,35 @@
+.container-nav {
+  align-content: center;
+  background-color: rgba(146, 47, 47, 0.411);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-produtos, .nav-meusPedidos {
+  background-color: rgb(214, 30, 30);
+  margin: 0;
+  padding: 12px 30px;
+}
+
+.nav-meusPedidos {
+  background-color: rgba(99, 40, 40, 0.918);
+}
+
+.nav-button-pages {
+  display: flex;
+}
+
+.nav-user {
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.nav-button-logout {
+  align-items: center;
+  background-color: rgba(231, 162, 35, 0.918);
+  border: none;
+  color: white;
+  display: flex;
+  padding: 12px 30px;
+}

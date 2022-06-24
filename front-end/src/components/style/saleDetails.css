@@ -1,0 +1,109 @@
+.saleDetails-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 65px;
+  min-height: 89.8vh;
+  padding: 25px;
+}
+
+.title-saleDetails {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 10px 10px 0 0;
+  color: rgb(146, 47, 47);
+  font-size: 25px;
+  font-weight: 400;
+  padding: 6px 10px 0;
+  text-align: start;
+  width: 280px;
+}
+
+.saleDetails-table {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 0 10px;
+  position: relative;
+  text-align: center;
+}
+
+.saleDetails-table th {
+  color: rgb(146, 47, 47);
+  font-weight: 300;
+}
+
+.saleDetails-totalValue {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 0 0 10px 10px;
+  color: rgb(146, 47, 47);
+  font-size: 22px;
+  font-weight: 400;
+  padding-right: 12px;
+  padding-top: 15px;
+  position: absolute;
+  right: 0;
+  text-align: end;
+  width: 210px;
+}
+
+.saleDetails-info {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-size: 22px;
+  font-weight: 400;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.saleDetails-info-order, .saleDetails-info-date {
+  color: rgb(144, 65, 47);
+  margin: 10px;
+  padding: 10px;
+}
+
+.saleDetails-info-status {
+  color: rgb(214, 30, 30);
+  margin: 10px;
+  padding: 10px;
+}
+
+.saleDetails-button-prepare, .saleDetails-button-outDelivery {
+  display: flex;
+}
+
+.saleDetails-button-prepare div, .saleDetails-button-outDelivery div {
+  background-color: rgb(255, 94, 0);
+  border-radius: 10px 0 0 10px;
+  margin: 20px 0;
+  padding-bottom: 7px;
+  padding-left: 20px;
+}
+
+.saleDetails-button-outDelivery div {
+  background-color: rgb(0, 129, 32);
+  padding-right: 10px;
+}
+
+.saleDetails-button-prepare button, .saleDetails-button-outDelivery button {
+  background-color: rgb(255, 94, 0);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: 230px;
+}
+
+.saleDetails-button-outDelivery button {
+  background-color: rgb(0, 129, 32);
+}
+
+.saleDetails-button-prepare:hover div, .saleDetails-button-prepare:hover button {
+  background-color: rgb(255, 126, 51);
+}
+
+.saleDetails-button-outDelivery:hover div, .saleDetails-button-outDelivery:hover button {
+  background-color: rgb(0, 168, 45);
+}

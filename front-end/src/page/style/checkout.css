@@ -1,0 +1,133 @@
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 65px;
+  min-height: 89.8vh;
+  padding: 25px;
+}
+
+.title-finish, .title-details {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 10px 10px 0 0;
+  color: rgb(146, 47, 47);
+  font-size: 25px;
+  font-weight: 400;
+  padding: 6px 10px 0;
+  text-align: start;
+  width: 210px;
+}
+
+.title-details {
+  margin-top: 80px;
+  width: 420px;
+}
+
+.checkout-table {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 0 10px;
+  position: relative;
+}
+
+.checkout-table td, .checkout-table th, .checkout-table tr {
+  text-align: center;
+}
+
+.checkout-table th {
+  color: rgb(146, 47, 47);
+  font-weight: 300;
+}
+
+.columna-item {
+  border-radius: 10px 0 0 10px;
+}
+
+.columna-rmvItem {
+  border-radius: 0 10px 10px 0;
+}
+
+.button-remove {
+  background-color: rgb(214, 30, 30);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 300;
+  padding: 7px;
+  width: 90px;
+}
+
+.button-remove:hover {
+  background-color: rgb(252, 59, 59);
+}
+
+.cart-totalValue-text {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 0 0 10px 10px;
+  color: rgb(146, 47, 47);
+  font-size: 22px;
+  font-weight: 400;
+  padding-right: 12px;
+  position: absolute;
+  right: 0;
+  text-align: end;
+  width: 210px;
+
+}
+
+.cart-totalValue-number {
+  text-align: end;
+}
+
+.details-delivery {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 0 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  padding-top: 20px;
+}
+
+.details-seller, .details-address, .details-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-seller select, .details-address input, .details-number input {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 300px;
+}
+
+.details-address, .details-number {
+  margin-left: 20px;
+}
+
+.details-address input {
+  padding: 18px;
+  width: 100%;
+}
+
+.details-number input {
+  padding: 18px;
+  width: 100px;
+}
+
+.button-finish {
+  background-color: rgb(255, 94, 0);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 7px;
+  width: 350px;
+}
+
+.button-finish:hover {
+  background-color: rgb(255, 116, 36);
+}

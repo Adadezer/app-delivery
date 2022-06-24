@@ -1,0 +1,67 @@
+.display {
+  display: none;
+}
+
+.noDisplay {
+  display: block;
+}
+
+.tela-login {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.form-login, .form-register {
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  height: 420px;
+  padding: 35px;
+  text-align: center;
+  width: 450px;
+}
+
+.form-register {
+  height: 450px;
+  padding: 50px;
+  width: 500px;
+}
+
+.form-login h1, .form-register h1 {
+  color: rgb(146, 47, 47);
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.div-screenLogin-email {
+  margin-top: 10px;
+}
+
+.color-buttom-login, .color-buttom-login-disable, .notHaveAccount {
+  background-color: rgb(255, 115, 0);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-top: 30px;
+  padding: 7px;
+}
+
+.color-buttom-login-disable {
+  background-color: rgba(255, 115, 0, 0.432);
+}
+
+.notHaveAccount {
+  background-color: rgba(99, 40, 40, 0.863);
+  margin-top: 20px;
+}
+
+.elementOcult {
+  color: rgb(146, 47, 47);
+  font-size: small;
+}

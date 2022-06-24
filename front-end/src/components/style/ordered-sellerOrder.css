@@ -1,0 +1,74 @@
+.h1-seller {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.sellerOrder-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  min-height: 79.3vh;
+}
+
+.sellerOrder-button {
+  background-color: rgba(255, 255, 255, 0.445);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  margin: 8px;
+  padding: 0 7px;
+}
+
+.sellerOrder-order {
+  background-color: rgb(144, 65, 47);
+  border-radius: 10px;
+  margin: 20px 5px;
+  padding: 32.5px;
+}
+
+.sellerOrder-status-data-price-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.sellerOrder-status-data-price {
+  display: flex;
+  height: 80px;
+}
+
+.sellerOrder-status {
+
+  /* pendente: vermelho, preparando: laranja, em trânsito: amarelo, entregue: verde  */
+  background-color: rgb(163, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 5px;
+  padding: 30px 35px;
+}
+
+.sellerOrder-data-price {
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5px;
+}
+
+.sellerOrder-data, .sellerOrder-price {
+  background-color: rgb(144, 65, 47);
+  border-radius: 10px;
+  margin: 1px;
+  padding: 2px 25px;
+  text-align: center;
+}
+
+.sellerOrder-address {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 10px;
+  color: black;
+  margin: 5px;
+  padding-right: 10px;
+}
