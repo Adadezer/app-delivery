@@ -100,20 +100,23 @@ São os scripts da raiz do projeto (`./package.json`) e não das aplicações in
 2- Entre na pasta do repositório que você acabou de clonar:
  - `cd app-delivery`
 
- 3- Instale as dependências:
+3- Instale as dependências:
+ - `npm install`
+ 
+4- Execute o comando:
  - `npm run dev:prestart`
   
- 4- Em uma nova guia do terminal, entre na pasta back-end
+5- Em uma nova guia do terminal, entre na pasta back-end
  - `cd back-end`
  
-5-Instale as dependências:
+6-Instale as dependências:
  
  - `npm install`.
 
-6- Em uma nova guia do terminal, entre na pasta front-end
+7- Em uma nova guia do terminal, entre na pasta front-end
  - `cd front-end` (a partir da raiz)
  
-7-Instale as dependências:
+8-Instale as dependências:
  
  - `npm install`
 
