@@ -2,26 +2,28 @@
 Projeto em grupo desenvolvido enquanto estudante da trybe no módulo de Back-End, é uma plataforma de delivery para compra e venda de cervejas.
 
 Integrantes:
-Adadezer Iwazaki: https://github.com/Adadezer
-Douglas Oliveira: https://github.com/Doug77
-Pedro Muniz: https://github.com/kariluss
-Thiago Lordêllo: https://github.com/thiagolordello/thiagolordello
-Victor Varges: https://github.com/VictorVarges
+- Adadezer Iwazaki: https://github.com/Adadezer
+- Douglas Oliveira: https://github.com/Doug77
+- Pedro Muniz: https://github.com/kariluss
+- Thiago Lordêllo: https://github.com/thiagolordello/thiagolordello
+- Victor Varges: https://github.com/VictorVarges
 
 # 🍻 Detalhes da aplicação
 Responsável por criar e integrar tanto o back-end quanto o front-end, criando uma plataforma de delivery para bebidas. A aplicação:
 
--   Tem acesso via login: tanto clientes como vendedores, tem acesso ao aplicativo via login, porém para funções diferentes: 
-(1) O cliente, que compra da lista de produtos; 
-(2) O vendedor, que aprova, prepara e entrega;
+ -   Tem acesso via login: tanto clientes como vendedores, tem acesso ao aplicativo via login, porém para funções diferentes: 
+  
+    1. O cliente, que compra da lista de produtos; 
+  
+    2. O vendedor, que aprova, prepara e entrega;
 
 -   Faz a comunicação entre clientes e vendedores: o cliente faz o pedido via "carrinho de compras" o vendedor aprova, prepara e envia esse pedido. Quando o produto é recebido por quem comprou, essa pessoa marca o pedido como "recebido". Ambos devem possuem detalhes sobre seus pedidos;
 -   Se o cliente faz o pedido, o mesmo deve aparecer para o vendedor em seu dash de pedidos após a atualização da página. A pessoa cliente, por sua vez, deve ter as informações sobre seu pedido quando sua página for atualizada, ou seja, ter informações se o pedido está sendo preparado ou se já saiu pra entrega;
 
 Ps: Como grupo, foi dividido 2 equipes para o desenvolvimento, as equipes foram constituídas por:
-(1) **Equipe fluxo de cliente**: Adadezer e Douglas
-(2) **Equipe fluxo do vendedor**: Thiago, Victor e Pedro
-(3) **CSS**: Adadezer e Thiago
+1. **Equipe fluxo de cliente**: Adadezer e Douglas
+2. **Equipe fluxo do vendedor**: Thiago, Victor e Pedro
+3. **CSS**: Adadezer e Thiago
 
 Ps²: O projeto não está 100% concluído e necessita de algumas melhorias, mas está todo funcional e com o mínimo de desenvolvimento já implementado
 
@@ -41,19 +43,23 @@ Nesse projeto, foram utilizados as tecnologias:
 
 # 🖥️ Aplicação
 	
-Essa é uma demonstração do projeto
+Demonstração do projeto:
+<p align="center">
+    <img windth="470" src="assets/readme/simplescreenrecorder-2022-06-24_12.29.08.gif">
+</p>
+
 Caso queira logar na aplicação utilize os seguintes usuários:
-(1) cliente:
+1. Cliente:
 ```
 login: zebirita@email.com
 senha: $#zebirita#$ 
 ```
-(2) vendedor:
+2. Vendedor:
 ```
 login: fulana@deliveryapp.com
 senha: fulana@123 
 ```
-# 🤷🏽‍♀️ Como Instalar e Utilizar
+# ⚙️ Como Instalar e Utilizar
 
 ## ⚠️ Informações importantes
  
@@ -85,7 +91,7 @@ São os scripts da raiz do projeto (`./package.json`) e não das aplicações in
     
     -   _uso (na raiz do projeto):  `npm run db:reset`_
 
-## ▶️ Instalando e executando
+## 🔧 Instalando
 
 1- Abra o terminal, e clone o repositório 
  
@@ -104,16 +110,23 @@ São os scripts da raiz do projeto (`./package.json`) e não das aplicações in
  
  - `npm install`.
 
-6- Execute a aplicação do back:
- - `npm run dev`
-	 - Irá aparecer uma mensagem como essa: "Api rodando na porta 3001"
-
- 7- Em uma nova guia do terminal, entre na pasta front-end
+6- Em uma nova guia do terminal, entre na pasta front-end
  - `cd front-end` (a partir da raiz)
  
-8-Instale as dependências:
+7-Instale as dependências:
  
- - `npm install`.
+ - `npm install`
+
+## ▶️ Iniciando a aplicação
+
+1- Na pasta back-end, execute a aplicação do back:
+ - `npm run dev`
+	 - Irá aparecer uma mensagem parecida com essa: "Api rodando na porta 3001"
   
- 9- Execute a aplicação do front:
+ 2- Na pasta front-end, execute a aplicação do front:
  - `npm start` 
+
+##
+<span >
+  <a href="https://www.linkedin.com/in/adadezer-iwazaki/" target="_blank"><img width="110em" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</span>
